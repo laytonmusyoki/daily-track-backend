@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-a55uokd@df#2a%bjrvn$9&4$38a@s+*p=tnspji+jydfbc=3fg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '340d-197-248-140-181.ngrok-free.app']
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '340d-197-248-140-181.ngrok-free.app', 'daily-track-backend.onrender.com']
 
 # Application definition
 
@@ -47,7 +46,7 @@ INSTALLED_APPS = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    'https://340d-197-248-140-181.ngrok-free.app'
+    'https://daily-track-backend.onrender.com/'
 ]
 
 MIDDLEWARE = [
